@@ -6,6 +6,22 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="./javascript/practicando.js"></script>
+    <script src="./javascript/Cavaliere.js"></script>
 </body>
 </html>
+
+
+let comprar = prompt ("Quiere ver nuestra lista de productos , si o no ")
+while (comprar != "si" || comprar != "no" ) {
+    alert ("Ingrese si o no ")
+    let comprar = prompt ("Quiere ver nuestra lista de productos , si o no ")
+    
+}
+
+
+if (comprar == ("si")){
+    alert ("Nuestro productos")
+    let totaldeProductos = producto.map( (producto) => producto.detalle + " " + producto.precio
+    );
+    alert(totaldeProductos.join(" "))
+}
