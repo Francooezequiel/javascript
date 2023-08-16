@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+    font-size: 62.5;
+}
+/* #body-body {
+    background-color: rgb(61, 61, 128);
+} */
+
+#header {
+    background-color: rgb(61, 61, 128);
+}
+
+.logo {
+    width: 200px;
+    margin-left: 2rem;
+    
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 1rem;
+}
+
+
+.title-productos {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    background-color: grey;
+    
+}
+
+
+#grilla-body {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "productos productos productos"
+    "banner banner banner"
+    "footer footer footer";
+
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+#mercado {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-area: productos;
+    gap: 2rem;
+    margin-top: 4rem;
+    
+    
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border: solid 5px black;
+}
+
+.card-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.card-contenedor img {
+    width: 300px;
+    height: 300px;
+}
+
+.card-contenedor h3 {
+    font-size: 30px;
+}
+
+.card-contenedor p {
+    
+    font-size: 25px;
+}
+
+#mercado .contenedor-boton {
+    font-size: 25px;
+    border : 5px solid black; 
+    border-radius: 5px ;
+    padding: 5px ;
+    margin: 5px;
+    background-color: rgb(145, 217, 145);
+    
+}
+
+
