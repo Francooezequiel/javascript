@@ -1,0 +1,51 @@
+[
+    {
+    "id": 1,
+    "nombre": "Smirnoff",
+    "precio": 3500,
+    "descripcion": "Smirnoff es un vodka de origen ruso, de 37,5% alc./vol.",
+    "img": "https://hiperlibertad.vtexassets.com/arquivos/ids/161636/Vodka-Original-Premiun-Cl-sico-Smirnoff-700-cc-1-4865.jpg?v=637287212725830000",
+    "cantidad":1
+    },
+    {
+        "id": 2,
+        "nombre": "Gin Tonic Gordon's",
+        "precio": 4500,
+        "descripcion":"Gordon's se trata de una ginebra clásica, de tipo London Dry Gin y de clase Premium con un 37,5%",
+        "img": "https://ardiaprod.vtexassets.com/arquivos/ids/256760/Gin-Gordons-700-Ml-_1.jpg?v=638253643969070000 ",
+        "cantidad":1
+    },
+    {
+        "id": 3,
+        "nombre": "Tekila Lobos",
+        "precio": 20000,
+        "descripcion": "Villa Lobos Tequila Añejo 100% de Agave 40% Vol. 0,7l",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8vESq_8T4kq3CjLURYj1EodLmWlCXBH3Cw&usqp=CAU",
+        "cantidad":1
+
+    },
+    {
+        "id" : 4,
+        "nombre": "Fernet",
+        "precio": 4500,
+        "descripcion": "Licor de Hierbas, Bebida Digestiva, para Aperitivo, 39% Volumen de Alcohol, 70 cl.",
+        "img": "https://www.elescocesboutique.com.ar/database/articulos/fotos/246/fernet-branca-750-cc-D_NQ_NP_375115-MLA25140896120_112016-F.jpg",
+        "cantidad":1
+    },
+    {
+        "id": 5,
+        "nombre": "Vino Malbec Trumpeter",
+        "precio": 6000,
+        "descripcion": "Origen: Argentina ; Grado alcohólico volumétrico: 13% vol",
+        "img": "https://01almacen.com.ar/cdn/shop/products/VINO-TRUMPETER-MALBEC-750ML_aa6eb8_13966.jpg?v=1627075872",
+        "cantidad":1
+    },
+    {
+        "id": 6,
+        "nombre": "Whisky Jhonnie Walker",
+        "precio": 8500,
+        "descripcion":"Whisky escocesJohnni Wlaker Red Label Graduación alcohólica 40 %",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROuIZuyTT3KAh8SeOL7eDc3MAlnma6cdH4Tg&usqp=CAU",
+        "cantidad":1
+    }
+]
